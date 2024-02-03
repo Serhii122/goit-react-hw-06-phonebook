@@ -1,0 +1,33 @@
+.item {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.text {
+  margin: 0px;
+}
+
+.mame {
+  font-weight: bold;
+}
+
+.btn {
+padding: 2px 7px;
+  margin-left: 20px;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ece7e7;
+}
+
+.btn:focus {
+  background-color:#ece7e7;
+}
